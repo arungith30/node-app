@@ -31,6 +31,6 @@ app.listen(PORT,()=>console.log("The server is started"));
 
 async function getPollById(client,id){
     const result =await client.db("contestants").collection("poll").findOne({id: id });
-    console.log("successfully connected",results);
+    console.log("successfully connected",result);
     return result;
 }
