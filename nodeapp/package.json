@@ -9,12 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-<<<<<<< HEAD
     "dev":"nodemon index.js"
-    
-=======
-    "dev": "nodemon index.js"
->>>>>>> 334de25543bace8b19e905f094be9125f54949f4
   },
   "author": "",
   "license": "ISC",
